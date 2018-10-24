@@ -8,7 +8,7 @@ namespace Module2TutorialLab1
 {
     class TechnicalEmployee : Employee
     {
-        public TechnicalEmployee(string name) : base(name, 75000)
+        public TechnicalEmployee(string name) : base(name, 75_000)
         {
 
         }
