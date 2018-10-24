@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Module2TutorialLab1
 {
-    class Employee
+    abstract class Employee
     {
         private string employeeName;
         private double employeeBaseSalary;
@@ -77,10 +77,9 @@ namespace Module2TutorialLab1
             return this.ID + " " + this.Name;
         }
 
-        public virtual string employeeStatus()
-        {
-            return toString() + " is in the company's system";
-        }
+        public abstract string employeeStatus();
+        
+        
 
 
     }
